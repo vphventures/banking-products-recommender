@@ -8,7 +8,7 @@ Limited by security measures and technology barriers, i managed to develop fully
 
 Each client get a product recommendation based on past behaviour of other clients, who did similar transactions.
 
-E.g. if John Doe buys with USD account buys frequently English tea and pays in GBP, engine will pick this behaviour up and recommends him current account, which has cheaper FX conversion Fees.
+E.g. if John Doe, the owner of USD account buys frequently English tea and pays in GBP, engine will pick this behaviour up and recommends him current account, which has cheaper FX conversion Fees.
 
 <h3> Technology stack </h3>
 
@@ -20,7 +20,7 @@ PoC was deployed into production with following architecture:
 <b>Backend</b>
 * Recommendations are trained and predicted by python instance, that calculates product feasibility using Alternating least square method.
 
-<b>Frontend</b>
+<b>Frontend</b>buys
 * Results are displayed to bankers on a dashboard built with PHP, Ajax, Js, HTML stack.
 
 <b>Automation</b>
