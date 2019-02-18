@@ -20,16 +20,17 @@ PoC was deployed into production with following architecture:
 <b>Backend</b>
 * Recommendations are trained and predicted by python instance, that calculates product feasibility using Alternating least square method.
 
-<b>Frontend</b>buys
+<b>Frontend</b>
 * Results are displayed to bankers on a dashboard built with PHP, Ajax, Js, HTML stack.
 
 <b>Automation</b>
-* Daily traning is achieved by setting a process and data workflow in Microsoft SQL Server Integration Services.
+* Daily training is achieved by setting a process and data workflow in Microsoft SQL Server Integration Services.
 
 <h3>Lessons learned</h3>
 
 * too much sparse matrix produces poor recommendation
-* more transaction history, better results
+* the more transaction history, the better results
+* without rule based heuristics, recommendation is a hit and miss
 
 <h3>Possible future improvements</h3>
 
